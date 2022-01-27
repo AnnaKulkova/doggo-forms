@@ -1,0 +1,20 @@
+.image-picker_placeholder {
+  object-fit: scale-down;
+}
+
+.image-picker_plus {
+  position: absolute;
+  font-size: 80px;
+  color: var(--primary-3);
+}
+
+.image-picker_image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--primary-3);
+}
+
+.image-picker_placeholder__opacity {
+  opacity: 0.3;
+}

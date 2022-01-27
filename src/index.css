@@ -1,3 +1,33 @@
+:root {
+  --primary-1: #262322;
+  --primary-2: #63372cff;
+  --primary-3: #c97d60ff;
+  --primary-4: #cbd0b9ff;
+  --primary-5: #fff8f0ff;
+
+  --text-1: #101418ff;
+  --text-2: #202931ff;
+  --text-3: #415262ff;
+  --text-4: #91a4b6ff;
+  --text-5: #f3f5f7ff;
+
+  --border-radius: 14px;
+
+  --font-size-large: 48px;
+  --font-size-big: 36px;
+  --font-size-medium: 24px;
+  --font-size-normal: 14px;
+  --font-size-small: 12px;
+  --font-size-tiny: 8px;
+}
+
+* {
+  font-family: 'Exo 2', sans-serif;
+  font-size: var(--font-size-normal);
+  color: var(--text-1);
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

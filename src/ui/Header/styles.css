@@ -1,0 +1,23 @@
+.header {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-1);
+  align-items: center;
+  width: 100%;
+}
+
+.header_back-button {
+  font-size: var(--font-size-large);
+  position: absolute;
+  left: 0;
+  color: var(--text-5);
+  text-decoration: none;
+  padding: 30px;
+}
+
+.header_title {
+  font-weight: 600;
+  font-size: var(--font-size-large);
+  color: var(--text-5);
+}
